@@ -87,6 +87,7 @@ while(True):
 cv2.destroyAllWindows()
 
 # Question 3
+# Contains a few bugs - needs to be fixed
 def gaussian(x, mu, sigma):
     return  (1/(2* pi * abs(sigma)))*np.exp((-1/2)*(np.transpose(x - mu))*(sigma^-1)*(x-mu))
 
